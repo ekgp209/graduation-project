@@ -475,7 +475,8 @@ footer>a.instar:hover {
 
 #container .content .conbox .content_wrap{opacity: 0;}
 
-#container .content.this .conbox .content_wrap{padding: 30px 50px 50px 50px; opacity: 1;}
+#container .content.this .conbox .content_wrap{padding: 30px 50px 50px 50px; opacity: 1;
+transition: all 1.7s; transition-delay:.8s;}
 
 #container .content{top:-100%; transition:all .8s;}
 #container .content:nth-of-type(2){transition-delay: .3s;}
