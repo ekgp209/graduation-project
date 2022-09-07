@@ -59,7 +59,7 @@ body {
     min-height: 100%;
     font-family: 'Noto Sans Korean', 'Malgun Gothic', '맑은고딕', '돋움', dotum, sans-serif;
     font-size: 16px;
-    color: #737373;
+    color: #2f0202;
     line-height: 1.5;
     background: url(../images/content_bg4.png) repeat;
 }
@@ -282,11 +282,12 @@ header .logo_box img {
 #wrap header nav ul li:hover a,
 #wrap header nav ul li.on a {
     color: #ed3140;
+    
 }
 
 #wrap header nav ul li:hover:after,
 #wrap header nav ul li.on:after {
-    background: #ed3140;
+    background: #000;
 }
 
 footer {
@@ -343,7 +344,7 @@ footer>a.instar:hover {
     width: 100%;
     height: 100%;
     position: relative;
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -440,7 +441,7 @@ footer>a.instar:hover {
     top: 180px;
     font-size: 25px;
     font-weight: 700;
-    color: #ed3140;
+    color: #000;
 }
 
 #container #menu1:after {
@@ -583,7 +584,7 @@ footer>a.instar:hover {
 
 .text_box h4 {
     font-size: 40px;
-    color: #d6d4d4;
+    color: #6F4F28;
     font-weight: 700;
 }
 
@@ -647,7 +648,7 @@ footer>a.instar:hover {
 }
 
 .text_box:nth-last-child(1) h4 {
-    color: #ed3140;
+    color: #000;
 }
 
 #menu2.content h3 {
@@ -930,7 +931,7 @@ footer>a.instar:hover {
     margin-bottom:40px;
     font-size: 24px;
     font-weight:700;
-    color:#EA657B;
+    color:#000;
 }
 .formlist{
 padding-bottom: 150px;
@@ -953,13 +954,13 @@ background-size: 200px;}
 .formlist ul li label sup{color:#EA657B;}
 .formlist ul li span{display:block;}
 .formlist ul li .inputbox{
-    width: 100px; 
+    width: 400px; 
     height: 40px;
     border:solid 1px #ddd;
     background:#fff;
 }
  .formlist ul li .textbox{
-    width: 100px; 
+    width: 400px; 
     height: 200px;
     border:solid 1px #ddd;
     background:#fff;
