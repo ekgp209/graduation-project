@@ -302,7 +302,7 @@ footer {
 }
 
 footer address {
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 footer>a {
@@ -310,7 +310,7 @@ footer>a {
     width: 16px;
     height: 16px;
     position: absolute;
-    top: -31px;
+    top: -28px;
     transition: .4s;
 }
 
@@ -332,7 +332,7 @@ footer>a.twit:hover {
 }
 
 footer>a.instar {
-    background: url(../ima:ges/social_b_instar.png) no-repeat;
+    background: url(../images/social_b_instar.png) no-repeat;
     right: 80px;
 }
 
@@ -508,12 +508,12 @@ footer>a.instar:hover {
 
 #container .content.this h2 {
     height: auto;
-    padding: 30px 0 20px 50px;
+    padding: 25px 35px;
     color: #000;
     position: relative;
     background: #fff;
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     opacity: 1;
     transition: all .6s;
     transition-delay: 1.2s;
@@ -523,7 +523,7 @@ footer>a.instar:hover {
     content: "";
     width: 100%;
     height: 8px;
-    background: #ed3140;
+    background: #453779;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -712,7 +712,7 @@ footer>a.instar:hover {
 .book_description h4 {
     font-size: 31px;
     font-weight: 700;
-    color: #f92d68;
+    color: #594796;
     line-height: 31px;
 }
 
@@ -772,7 +772,7 @@ footer>a.instar:hover {
 }
 
 .commbtn.pink {
-    background: #f92d68;
+    background: #7867b4;
     color: #fff;
 }
 
@@ -830,8 +830,9 @@ footer>a.instar:hover {
 }
 
 .tit_faq {
-    color: #fff;
+    color: rgb(61, 61, 61);
     position: relative;
+    margin-top: 15px
 }
 
 .tit_faq strong {
@@ -862,7 +863,7 @@ footer>a.instar:hover {
 .accordio_box ol li {
     width: 100%;
     background: #fff;
-    border-top: 4px solid #EA657B;
+    border-top: 4px solid #7a6da7;
 }
 
 .accordio_box ol li h4 {
@@ -894,7 +895,7 @@ footer>a.instar:hover {
 .accordio_box ol li.on p {
     height: auto;
     padding: 30px 100px 70px 200px;
-    background-color: #eee;
+    background-color: rgb(253, 251, 245);
     background-size: 100px auto;
     background-repeat: no-repeat;
     visibility: visible;
@@ -934,6 +935,10 @@ footer>a.instar:hover {
     font-size: 24px;
     font-weight: 700;
     color: #000;
+}
+
+.form_tit .point_tit {
+    color: #403469;
 }
 
 .formlist {
