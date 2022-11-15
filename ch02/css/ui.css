@@ -262,8 +262,8 @@ header .logo_box img {
 
 #wrap header nav ul li a {
     font-size: 16px;
-    color: #fff;
-    font-size: 600;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
     line-height: 30px;
 }
 
@@ -273,7 +273,7 @@ header .logo_box img {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: #fff;
+    background: rgb(61, 61, 61);
     position: absolute;
     left: 0px;
     top: 13px;
@@ -297,7 +297,7 @@ footer {
     bottom: 0px;
     padding: 0px 20px 30px 20px;
     font-size: 11px;
-    color: #dadada;
+    color: #88819c;
     z-index: 12;
 }
 
