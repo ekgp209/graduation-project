@@ -5,12 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>도서구매하기</title>
+
+    <!-- swwetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
     <div>hello</div>
-    <button type="button" class="buying_button" onclick="window.open('index.html')">구매사이트</button>
+
+    <div class="r-aside">
+        <ul class="btnSet">
+            <li class="mT5">주문수량</li>
+            <li class="mT2">
+                <form name="qtyForm">
+                    <input type="text" name="Quantity" id="Quantity" size="3" maxlength="3" value="1" class="numInp"
+                        oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+                </form>
+                <form name="NaverOrder" method="post">
+                    <input type="hidden" name="env" value="CD">
+                    <input type="hidden" name="listLength" value="1">
+                    <input type="hidden" name="StrGoods_cd" value="100959375">
+                    <input type="hidden" name="sales_code" value="YP">
+                    <input type="hidden" name="quantity">
+                    <input type="hidden" name="item_count">
+                </form>
+            </li>
+            <!-- 수량 끝 -->
+        </ul>
+        <div class="btn_box">
+            <button onclick="Swal.fire({
+                title: '상품이 장바구니에 담겼습니다.',
+                showDenyButton: false,
+                showCancelButton: true,
+                confirmButtonText: '확인',
+                cancelButtonText: '취소',
+                icon: 'success'
+              })">장바구니 담기</button>
+        </div>
+        <div class="btn_box">
+            <button onclick="Swal.fire({
+                title: '결제창으로 이동합니다.',
+                showDenyButton: false,
+                showCancelButton: true,
+                confirmButtonText: '이동',
+                cancelButtonText: '취소',
+                icon: 'success'
+              })">바로구매</button>
+        </div>
+        <div class="btn_box">
+            <button onclick="Swal.fire(
+                '알립니다.',
+                '매장의 재고는 수시로 변경될 수 있으니 확인하시고 주문 하시기 바랍니다.',
+                'warning'
+              )">오늘드림</button>
+        </div>
+
+    </div>
+
+    <script>
+        function btn(sample) {
+            alert(sample);
+        }
+    </script>
+    <script src="sweetalert2.all.min.js"></script>
 </body>
 
 </html>

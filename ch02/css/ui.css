@@ -924,14 +924,14 @@ footer>a.instar:hover {
 
 #menu4 .content_wrap {
     width: 800px;
-    margin: 100px auto 0 auto;
+    margin: 60px auto 0 auto;
     padding: 30px;
     background: rgna(255, 255, 255, 0.7);
     border-radius: 5px;
 }
 
 #menu4 .content_wrap .form_tit {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-size: 24px;
     font-weight: 700;
     color: #000;
@@ -959,7 +959,7 @@ footer>a.instar:hover {
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 14px;
+    font-size: 15px;
     color: #555;
 }
 
@@ -974,14 +974,18 @@ footer>a.instar:hover {
 .formlist ul li .inputbox {
     width: 400px;
     height: 40px;
+    padding-left: 7px;
     border: solid 1px #ddd;
+    border-radius: 3px;
     background: #fff;
 }
 
 .formlist ul li .textbox {
     width: 400px;
-    height: 200px;
+    height: 180px;
+    padding: 7px;
     border: solid 1px #ddd;
+    border-radius: 3px;
     background: #fff;
 }
 
@@ -991,8 +995,17 @@ footer>a.instar:hover {
     height: 100%;
 }
 
-.btn_box {
+.btn_sub {
     width: 100%;
     margin-top: 20px;
     text-align: center;
+}
+
+.btn_box {
+    width: 170px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #000;
+    margin-bottom: 10px;
 }
