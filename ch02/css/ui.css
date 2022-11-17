@@ -1001,11 +1001,34 @@ footer>a.instar:hover {
     text-align: center;
 }
 
+.r-aside{
+    margin-top:70px;
+    
+}
+
 .btn_box {
     width: 170px;
     height: 55px;
     font-size: 16px;
     font-weight: 700;
-    background-color: #000;
     margin-bottom: 10px;
+    background-color: inherit;
+    border-radius: 50px;
+    border:1px solid purple;
+}
+
+.btn_box button{
+    width: 170px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: inherit;
+    /* font-size: 16px;
+    font-weight: 700;
+    background-color: inherit;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    margin:auto; */
 }
