@@ -782,7 +782,7 @@ footer>a.instar:hover {
     color: #fff;
 }
 
-.book_rollwrap__buying {
+.book_rollwrap {
     width: 954px;
     height: 150px;
     margin: 40px auto 0 auto;
@@ -790,7 +790,7 @@ footer>a.instar:hover {
     position: relative;
 }
 
-.book_rollwrap__buying>button {
+.book_rollwrap>button {
     display: block;
     position: absolute;
     width: 20px;
@@ -798,35 +798,35 @@ footer>a.instar:hover {
     top: 0;
 }
 
-.book_rollwrap__buying>button.roll_left {
+.book_rollwrap>button.roll_left {
     background: url(../images/btn_left.png) no-repeat center center;
     background-size: 20px;
     left: 0;
 }
 
-.book_rollwrap__buying>button.roll_right {
+.book_rollwrap>button.roll_right {
     background: url(../images/btn_right.png) no-repeat center center;
     background-size: 20px;
     right: 0;
 }
 
-.book_rollwrap__buying .book_roll {
+.book_rollwrap .book_roll {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.book_rollwrap__buying .book_roll ul {
+.book_rollwrap .book_roll ul {
     width: 100%;
 }
 
-.book_rollwrap__buying .book_roll ul li {
+.book_rollwrap .book_roll ul li {
     float: left;
     width: 152px;
     text-align: center;
 }
 
-.book_rollwrap__buying .book_roll ul li img {
+.book_rollwrap .book_roll ul li img {
     width: 100px;
 }
 
