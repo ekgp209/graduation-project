@@ -1005,7 +1005,7 @@ footer>a.instar:hover {
 .tot_info {
     display: flex;
     background-color: white;
-    margin-top: 15px;
+    padding: 15px 0;
     justify-content: center;
     align-items: center;
 
@@ -1089,6 +1089,8 @@ footer>a.instar:hover {
 
 .numInp {
     width: 80px;
+    text-align: right;
+    padding-right: 8px;
     border: 1px solid rgb(206, 198, 198);
 }
 
@@ -1104,11 +1106,12 @@ footer>a.instar:hover {
 }
 
 .btn_box.pupple {
-    color:white!important;
-    background-color: #6d62cf;
+    color: white !important;
+    background-color: #665acf;
     margin-bottom: 12px;
 
 }
+
 /* .btn_box.pupple button{
     color:white;
 } */
@@ -1121,7 +1124,7 @@ footer>a.instar:hover {
 
 .btn_box.yellow {
     color: white;
-    background-color: rgb(247, 227, 118);
+    background-color: rgb(247, 226, 107);
     margin-bottom: 12px;
 }
 
@@ -1130,9 +1133,11 @@ footer>a.instar:hover {
     background-color: rgb(250, 248, 248);
     border: 1px solid rgb(214, 207, 207);
 }
-.btn_box.white button{
+
+.btn_box.white button {
     color: black;
 }
+
 .btn_box button {
     width: 170px;
     height: 55px;
@@ -1145,31 +1150,35 @@ footer>a.instar:hover {
     color: white;
 }
 
-.nav{
+.nav {
     height: auto;
     padding: 25px 35px;
-    display:flex;
+    display: flex;
     background: #fff;
     font-size: 30px;
     font-weight: 600;
     opacity: 1;
     transition: all .6s;
     transition-delay: 1.2s;
-    border-bottom:10px solid  #453779;
+    border-bottom: 10px solid #453779;
     align-items: center;
     justify-content: center;
 }
 
-.tt{
-    display:flex;
+.tt {
+    display: flex;
+    margin: 30px 0 7px 0
 }
 
-.logo{
-    color:black;
-    width:230px;
+.logo {
+    color: black;
+    width: 200px;
 }
 
-.input_buying{
-    border:2px solid  #453779;
+.input_buying {
+    border: 2px solid #453779;
     width: 730px;
+    height: 48px;
+    padding-left: 10px;
+    color: black;
 }
