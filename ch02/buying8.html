@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서구매</title>
+    <link rel="stylesheet" type="text/css" href="./css/buying.css">
+
+    <!-- swwetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="tt">
+            <a href="./index.html">
+                <div class="logo">SW 문고</div>
+            </a>
+            <input class="input_buying" placeholder="구매할 책을 입력하세요">
+        </div>
+    </div>
+    <!-- header  끝  -->
+
+    <div class="tot_info">
+        <div class="book_img">
+            <img src="./images/book8.png" alt="Do it! 쉽게 만드는 워드프레스 웹 사이트" />
+            <button>미리보기</button>
+            <button>영업점 재고 및 위치 확인</button>
+        </div>
+        <!--Book 기본설명 : s -->
+        <div class="book_info">
+            <h1 class="title">Do It! 쉽게 만드는 워드프레스 웹 사이트</h1>
+            <div class="info_txt">
+                <b>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</b>
+                <p>이태원</p>
+            </div>
+            <div class="info_txt">
+                <b>발&nbsp;행&nbsp;일</b>
+                <p>2015-06-04</p>
+            </div>
+            <div class="info_txt">
+                <b>사&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양</b>
+                <p>520쪽&nbsp;&nbsp;|&nbsp;&nbsp;188*257mm</p>
+            </div>
+            <div class="info_txt">
+                <b>I S B N</b>
+                <p>978-89-97390-66-3</p>
+            </div>
+            <div class="info_txt">
+                <b>정&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가</b>
+                <p class="commprice line">26,000 원</p>
+            </div>
+            <div class="info_txt">
+                <b>판&nbsp;매&nbsp;가</b>
+                <span></span>
+                <p class="commprice large">23,400 </p>원&nbsp; <p class="commprice"
+                    style="font-size: 15px; color:rgb(228, 6, 6);">(10%
+                    할인)</p></span>
+            </div>
+            <div class="info_txt">
+                <b>배송일정</b>
+                <p style="color: rgb(228, 6, 6);">내일 출고 가능</p>
+            </div>
+        </div>
+
+
+        <!-- 주문 버튼 -->
+        <div class="box_wrap">
+            <div class="order_cnt">
+                <div>주문수량</div>
+                <form name="qtyForm">
+                    <input type="text" name="Quantity" id="Quantity" size="3" maxlength="3" value="1" class="numInp"
+                        oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+                </form>
+            </div>
+            <div class="btn_box pupple">
+                <button onclick="Swal.fire({
+            title: '상품이 장바구니에 담겼습니다.',
+            showDenyButton: false,
+            showCancelButton: true,
+            confirmButtonText: '확인',
+            cancelButtonText: '취소',
+            icon: 'success'
+            })">장바구니 담기</button>
+            </div>
+            <div class="btn_box gray">
+                <button onclick="Swal.fire({
+            title: '결제창으로 이동합니다.',
+            showDenyButton: false,
+            showCancelButton: true,
+            confirmButtonText: '이동',
+            cancelButtonText: '취소',
+            icon: 'success'
+            })">바로구매</button>
+            </div>
+            <div class="btn_box yellow">
+                <button onclick="Swal.fire(
+            '알립니다.',
+            '매장의 재고는 수시로 변경될 수 있으니 확인하시고 주문 하시기 바랍니다.',
+            'warning'
+            )">오늘드림</button>
+            </div>
+            <div class="btn_box white">
+                <button onclick="Swal.fire(
+            '알립니다.',
+            '매장의 재고는 수시로 변경될 수 있으니 확인하시고 주문 하시기 바랍니다.',
+            'warning'
+            )">선물하기</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="book_buying">
+        <h2>연관도서</h2>
+        <a href="buying1.html" class="detail_content_buying">
+            <div class="img_book_buying">
+                <img src="./images/book1.png" alt="Do it! HTML5+CSS3 웹 표준의 정석 <개정판>" />
+            </div>
+            <div class="book_description_buying">
+                <h4>Do it! HTML5+CSS3 웹 표준의 정석 &#60; 개정판 &#62;</h4>
+                <div class="info_txt">
+                    <b>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</b>
+                    <p>고경희</p>
+                </div>
+                <div class="info_txt">
+                    <b>판&nbsp;매&nbsp;가&nbsp;</b>
+                    <p>25,200원</p>
+                </div>
+                <div class="book_description">
+                    <b>도서설명</b>
+                    <p>문과생도 컴맹도 아무 것도 몰라도 이 한권으로 OK!
+                        이 책으로 공부하면 기초 태그부터 반응형 웹까지 한 번에 배울 수 있습니다. 자세한 설명과
+                        간단명료한 많은 예제로 웹 표준의 정석을 익힐 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a href="buying2.html" class="detail_content_buying">
+            <div class="img_book_buying">
+                <img src="./images/book2.png" alt="Do it! 프런트엔드 웹 디자인 입문 - 전면 개정판" />
+            </div>
+            <div class="book_description_buying">
+                <h4>Do it! 프런트엔드 웹 디자인 입문 - 전면 개정판</h4>
+                <div class="info_txt">
+                    <b>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</b>
+                    <p>고경희</p>
+                </div>
+                <div class="info_txt">
+                    <b>판&nbsp;매&nbsp;가&nbsp;</b>
+                    <p>19,800원</p>
+                </div>
+                <div class="book_description">
+                    <b>도서설명</b>
+                    <p>꼭 알아야 하는 웹 디자인 6대 기술을 담았다!
+                        이 책은 유명 웹 에이전시 열에 아홉은 사용하는 반응형 웹, 패럴렉스 스크롤링, 풀 스크린 배경, 구글 웹 폰트, 플렉스 박스, 부트스트랩까지 당신이 꼭 알아야 할 웹
+                        디자인 기법을
+                        담았습니다.</p>
+                </div>
+            </div>
+        </a>
+        <a href="buying3.html" class="detail_content_buying">
+            <div class="img_book_buying">
+                <img src="./images/book3.png" alt="Do it! 웹 프로그래밍을 위한 자바스크립트 기본 편" />
+            </div>
+            <div class="book_description_buying">
+                <h4>Do it! 웹 프로그래밍을 위한 자바스크립트 기본 편</h4>
+                <div class="info_txt">
+                    <b>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</b>
+                    <p>고경희</p>
+                </div>
+                <div class="info_txt">
+                    <b>판&nbsp;매&nbsp;가&nbsp;</b>
+                    <p>16,920원</p>
+                </div>
+                <div class="book_description">
+                    <b>도서설명</b>
+                    <p>키보드만 잡고 하루에 2시간씩 10일에 끝낸다!
+                        이 책은 자바스크립트를 통해 웹 프로그래밍에 입문하는 사람들이 가장 먼저 배워야 할 기본 문법을 웹 분야 베스트셀러 저자인 고경희 선생이 모아 엮은 책입니다.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- 구매창 끝  -->
+
+    <script>
+        function btn(sample) {
+            alert(sample);
+        }
+    </script>
+    <script src="sweetalert2.all.min.js"></script>
+</body>
+
+</html>

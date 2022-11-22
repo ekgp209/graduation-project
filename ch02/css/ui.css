@@ -701,7 +701,7 @@ footer>a.instar:hover {
 .book_description {
     width: 449px;
     float: left;
-    padding: 20px 20px 20px 40px;
+    padding: 8px 20px 20px 40px;
 }
 
 .detail_content:after {
@@ -711,10 +711,10 @@ footer>a.instar:hover {
 }
 
 .book_description h4 {
-    font-size: 31px;
+    font-size: 30px;
     font-weight: 700;
     color: #594796;
-    line-height: 31px;
+    line-height: 29px;
 }
 
 .book_description ul li em {
@@ -722,13 +722,13 @@ footer>a.instar:hover {
 }
 
 .bullet_list {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .bullet_list li {
     margin-bottom: 5px;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 13px;
     color: #3c4147;
     position: relative;
 }
@@ -746,7 +746,7 @@ footer>a.instar:hover {
 }
 
 .point_text {
-    padding: 10px 30px 0px 0;
+    padding: 8px 30px 0px 0;
     font-size: 12px;
     color: #666;
 }
@@ -765,14 +765,14 @@ footer>a.instar:hover {
     width: 150px;
     display: inline-block;
     height: 35px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 15px;
     line-height: 35px;
     border-radius: 5px;
     text-align: center;
 }
 
-.commbtn.pink {
+.commbtn.pupple {
     background: #7867b4;
     color: #fff;
 }
@@ -1000,185 +1000,4 @@ footer>a.instar:hover {
     width: 100%;
     margin-top: 20px;
     text-align: center;
-}
-
-.tot_info {
-    display: flex;
-    background-color: white;
-    padding: 15px 0;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.book_img {
-    display: flex;
-    width: 230px;
-    float: left;
-    flex-direction: column;
-}
-
-.book_img img {
-    width: 230px;
-}
-
-.tot_info .book_img button {
-    font-size: 14px;
-    padding: 5px 0;
-    margin-bottom: 8px;
-    background-color: #fff;
-    border: 1px solid rgb(219, 216, 216);
-    border-radius: 5px;
-}
-
-.book_info {
-    width: 500px;
-    margin: 0 30px;
-}
-
-.title {
-    font-size: 26px;
-    font-weight: 550;
-    padding-bottom: 8px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid rgb(219, 216, 216);
-}
-
-.info_txt {
-    display: flex;
-    align-items: center;
-    margin-top: 3px;
-}
-
-.info_txt b {
-    width: 70px;
-}
-
-.commprice {
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.commprice.line {
-    color: gray;
-    text-decoration: line-through;
-}
-
-.commprice.large {
-    font-size: 20px;
-    color: red;
-}
-
-.box_wrap {
-    display: flex;
-    padding: 15px 30px;
-    background-color: rgb(247, 245, 245);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.order_cnt {
-    display: flex;
-    width: 170px;
-    height: 40px;
-    border-bottom: 1px solid rgb(206, 198, 198);
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-
-.numInp {
-    width: 80px;
-    text-align: right;
-    padding-right: 8px;
-    border: 1px solid rgb(206, 198, 198);
-}
-
-.btn_box {
-    display: flex;
-    align-items: center;
-    width: 170px;
-    height: 55px;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.btn_box.pupple {
-    color: white !important;
-    background-color: #665acf;
-    margin-bottom: 12px;
-
-}
-
-/* .btn_box.pupple button{
-    color:white;
-} */
-
-.btn_box.gray {
-    color: #fff;
-    background-color: #9999a0;
-    margin-bottom: 12px;
-}
-
-.btn_box.yellow {
-    color: white;
-    background-color: rgb(247, 226, 107);
-    margin-bottom: 12px;
-}
-
-.btn_box.white {
-    color: #fff;
-    background-color: rgb(250, 248, 248);
-    border: 1px solid rgb(214, 207, 207);
-}
-
-.btn_box.white button {
-    color: black;
-}
-
-.btn_box button {
-    width: 170px;
-    height: 55px;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: inherit;
-}
-
-.box_wrap button {
-    color: white;
-}
-
-.nav {
-    height: auto;
-    padding: 25px 35px;
-    display: flex;
-    background: #fff;
-    font-size: 30px;
-    font-weight: 600;
-    opacity: 1;
-    transition: all .6s;
-    transition-delay: 1.2s;
-    border-bottom: 10px solid #453779;
-    align-items: center;
-    justify-content: center;
-}
-
-.tt {
-    display: flex;
-    margin: 30px 0 7px 0
-}
-
-.logo {
-    color: black;
-    width: 200px;
-}
-
-.input_buying {
-    border: 2px solid #453779;
-    width: 730px;
-    height: 48px;
-    padding-left: 10px;
-    color: black;
 }

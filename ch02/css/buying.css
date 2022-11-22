@@ -176,7 +176,7 @@ textarea {
 }
 
 a {
-    color: #919090;
+    color: rgb(61, 61, 61);
     text-decoration: none
 }
 
@@ -210,6 +210,7 @@ body {
     overflow: scroll;
     height: 100%;
 }
+
 .tot_info {
     display: flex;
     background-color: white;
@@ -391,33 +392,52 @@ body {
     color: black;
 }
 
-.book_buying{
-    width:100%;
-    height: fit-content;  
+.book_buying {
+    width: 100%;
+    height: fit-content;
     background-color: white;
-    margin-top:50px;
+    margin-top: 22px;
+    padding: 25px 0;
 }
-.book_buying p{
-    width :1060px;
-    margin:auto;
+
+.book_buying h2 {
+    width: 1060px;
+    padding: 5px 0 15px 300px;
     font-size: 20px;
-    font-size: 700;
+    font-weight: 700;
 }
 
-.detail_content_buying{
-    width:1060px;
-    height: 300px;
-    display:flex;
-    margin:auto;
-    justify-content: space-between;
+.detail_content_buying {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
-.img_book_buying img{
-    width:200px;
-    height: 270px;
+.img_book_buying img {
+    width: 130px;
+    height: 190px;
 }
 
-.book_description_buying{
-    width:70%;
-    overflow:hidden;
+.book_description_buying {
+    width: 50%;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.book_description_buying h4 {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.book_description {
+    margin-top: 4px;
+}
+
+.book_description p {
+    margin-top: 3px;
+    color: rgb(107, 106, 106);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
