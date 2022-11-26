@@ -103,11 +103,14 @@
             )">오늘드림</button>
             </div>
             <div class="btn_box white">
-                <button onclick="Swal.fire(
-            '알립니다.',
-            '매장의 재고는 수시로 변경될 수 있으니 확인하시고 주문 하시기 바랍니다.',
-            'warning'
-            )">선물하기</button>
+                <button onclick="Swal.fire({
+                    title: '로그인 후 이용해 주시기 바랍니다.',
+                    showDenyButton: false,
+                    showCancelButton: true,
+                    confirmButtonText: '확인',
+                    cancelButtonText: '취소',
+                    icon: 'warning'
+                    })">선물하기</button>
             </div>
         </div>
     </div>
