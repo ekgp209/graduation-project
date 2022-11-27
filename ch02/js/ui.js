@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(".logo_box").click(function () {
         $("nav li").removeClass("on");
         $(".content").removeClass("prev this next");
-        $("#container").css("max-width", "1200px");
+        $("#container").css("max-width", "1700px");
     });
         $(".roll_left").click(function(){
         $(".book_roll li").eq(0).insertAfter(".book_roll li:last-child");
