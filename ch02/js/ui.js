@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $("#container").addClass("start");
     $("nav li").click(function () {
@@ -41,3 +42,9 @@ $(".accordio_box ol li").click(function(){
     $(this).addClass("on");
 });
 });
+
+$(document).ready(function(){
+	
+});
+
+
