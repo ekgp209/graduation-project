@@ -6,6 +6,7 @@
         {
             "label": "build",
             "type": "shell",
+<<<<<<< HEAD
             "command": "chrome.exe",
             "windows":{"command": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"},
             "args": [
@@ -16,6 +17,16 @@
                 // Do not generate summary otherwise it leads to duplicate errors in Problems panel
                 //"/consoleloggerparameters:NoSummary"
         ],
+=======
+            "command": "msbuild",
+            "args": [
+                // Ask msbuild to generate full paths for file names.
+                "/property:GenerateFullPaths=true",
+                "/t:build",
+                // Do not generate summary otherwise it leads to duplicate errors in Problems panel
+                "/consoleloggerparameters:NoSummary"
+            ],
+>>>>>>> bdb0db17c3f0584bafaa584f07776bee36aa2a45
             "group": "build",
             "presentation": {
                 // Reveal the output only if unrecognized errors occur.
