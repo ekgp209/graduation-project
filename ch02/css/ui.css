@@ -12,7 +12,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 p,
 blockquote,
@@ -587,14 +586,15 @@ footer>a.instar:hover {
 
 .text_box h4 {
     font-size: 1.9rem;
-    color: #6F4F28;
+    color: #6F4F28 !important;
     font-weight: 700;
 }
 
 .text_box p {
     margin-bottom: 3.125rem;
     color: #ababab;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
+    font-size:1rem;
 }
 
 .text_box:nth-child(odd) {
@@ -614,7 +614,7 @@ footer>a.instar:hover {
     right: 0;
     top: 0;
     background: url(../images/content_img1.png) no-repeat right top;
-    background-size: 12.875rem auto;
+    background-size: 12rem auto;
 }
 
 .text_box:nth-child(1) p {
@@ -845,7 +845,7 @@ footer>a.instar:hover {
 
 .tit_faq span {
     font-size: 0.875rem;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .tit_faq:before {
@@ -854,13 +854,14 @@ footer>a.instar:hover {
     position: absolute;
     width: 7.5rem;
     height: 9.375rem;
-    background: url(../images/faq_boy.png) no-repeat;
+    /* background: url(../images/faq_boy.png) no-repeat; */
     right: 0rem;
     top: 2.25rem;
+    margin-top:80px;
 }
 
 .accordio_box {
-    margin-top: 10.625rem;
+    margin-top: 40px;
 }
 
 .accordio_box ol li {
