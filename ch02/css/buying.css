@@ -58,7 +58,7 @@ body {
     height: 100%;
     min-height: 100%;
     font-family: 'Noto Sans Korean', 'Malgun Gothic', '맑은고딕', '돋움', dotum, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #2f0202;
     line-height: 1.5;
     background: url(../images/content_bg4.png) repeat;
@@ -154,7 +154,7 @@ textarea,
 select,
 button {
     font-family: 'Noto Sans Korean', 'Malgun Gothic', '맑은고딕', '돋움', dotum, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     /* color:white; */
     color: #919090;
     line-height: 1.5;
@@ -214,7 +214,7 @@ body {
 .tot_info {
     display: flex;
     background-color: white;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
     justify-content: center;
     align-items: center;
 
@@ -222,49 +222,49 @@ body {
 
 .book_img {
     display: flex;
-    width: 230px;
+    width: 14.375rem;
     float: left;
     flex-direction: column;
 }
 
 .book_img img {
-    width: 230px;
+    width: 14.375rem;
 }
 
 .tot_info .book_img button {
-    font-size: 14px;
-    padding: 5px 0;
-    margin-bottom: 8px;
+    font-size: 0.875rem;
+    padding: 0.3125rem 0;
+    margin-bottom: 0.5rem;
     background-color: #fff;
-    border: 1px solid rgb(219, 216, 216);
-    border-radius: 5px;
+    border: 0.0625rem solid rgb(219, 216, 216);
+    border-radius: 0.3125rem;
 }
 
 .book_info {
-    width: 500px;
-    margin: 0 30px;
+    width: 31.25rem;
+    margin: 0 1.875rem;
 }
 
 .title {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 550;
-    padding-bottom: 8px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid rgb(219, 216, 216);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.625rem;
+    border-bottom: 0.0625rem solid rgb(219, 216, 216);
 }
 
 .info_txt {
     display: flex;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 0.1875rem;
 }
 
 .info_txt b {
-    width: 70px;
+    width: 4.375rem;
 }
 
 .commprice {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -274,13 +274,13 @@ body {
 }
 
 .commprice.large {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: red;
 }
 
 .box_wrap {
     display: flex;
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     background-color: rgb(247, 245, 245);
     flex-direction: column;
     align-items: center;
@@ -289,35 +289,35 @@ body {
 
 .order_cnt {
     display: flex;
-    width: 170px;
-    height: 40px;
-    border-bottom: 1px solid rgb(206, 198, 198);
+    width: 10.625rem;
+    height: 2.5rem;
+    border-bottom: 0.0625rem solid rgb(206, 198, 198);
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .numInp {
-    width: 80px;
+    width: 5rem;
     text-align: right;
-    padding-right: 8px;
-    border: 1px solid rgb(206, 198, 198);
+    padding-right: 0.5rem;
+    border: 0.0625rem solid rgb(206, 198, 198);
 }
 
 .btn_box {
     display: flex;
     align-items: center;
-    width: 170px;
-    height: 55px;
-    font-size: 16px;
+    width: 10.625rem;
+    height: 3.4375rem;
+    font-size: 1rem;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 
 .btn_box.pupple {
     color: white !important;
     background-color: #665acf;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 
 }
 
@@ -328,19 +328,19 @@ body {
 .btn_box.gray {
     color: #fff;
     background-color: #9999a0;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .btn_box.yellow {
     color: white;
     background-color: rgb(247, 226, 107);
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .btn_box.white {
     color: #fff;
     background-color: rgb(250, 248, 248);
-    border: 1px solid rgb(214, 207, 207);
+    border: 0.0625rem solid rgb(214, 207, 207);
 }
 
 .btn_box.white button {
@@ -348,9 +348,9 @@ body {
 }
 
 .btn_box button {
-    width: 170px;
-    height: 55px;
-    font-size: 16px;
+    width: 10.625rem;
+    height: 3.4375rem;
+    font-size: 1rem;
     font-weight: 700;
     background-color: inherit;
 }
@@ -361,34 +361,34 @@ body {
 
 .nav {
     height: auto;
-    padding: 25px 35px;
+    padding: 1.5625rem 2.1875rem;
     display: flex;
     background: #fff;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     opacity: 1;
     transition: all .6s;
     transition-delay: 1.2s;
-    border-bottom: 10px solid #453779;
+    border-bottom: 0.625rem solid #453779;
     align-items: center;
     justify-content: center;
 }
 
 .tt {
     display: flex;
-    margin: 30px 0 7px 0
+    margin: 1.875rem 0 0.4375rem 0
 }
 
 .logo {
     color: black;
-    width: 200px;
+    width: 12.5rem;
 }
 
 .input_buying {
-    border: 2px solid #453779;
-    width: 730px;
-    height: 48px;
-    padding-left: 10px;
+    border: 0.125rem solid #453779;
+    width: 45.625rem;
+    height: 3rem;
+    padding-left: 0.625rem;
     color: black;
 }
 
@@ -396,46 +396,46 @@ body {
     width: 100%;
     height: fit-content;
     background-color: white;
-    margin-top: 22px;
-    padding: 25px 0;
+    margin-top: 1.375rem;
+    padding: 1.5625rem 0;
 }
 
 .book_buying h2 {
-    width: 1060px;
-    padding: 5px 0 15px 300px;
-    font-size: 20px;
+    width: 66.25rem;
+    padding: 0.3125rem 0 0.9375rem 18.75rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
 .detail_content_buying {
     display: flex;
-    gap: 50px;
-    margin-bottom: 20px;
+    gap: 3.125rem;
+    margin-bottom: 1.25rem;
     justify-content: center;
 }
 
 .img_book_buying img {
-    width: 130px;
-    height: 190px;
+    width: 8.125rem;
+    height: 11.875rem;
 }
 
 .book_description_buying {
     width: 50%;
-    margin-top: 12px;
+    margin-top: 0.75rem;
     overflow: hidden;
 }
 
 .book_description_buying h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 550;
 }
 
 .book_description {
-    margin-top: 4px;
+    margin-top: 0.25rem;
 }
 
 .book_description p {
-    margin-top: 3px;
+    margin-top: 0.1875rem;
     color: rgb(107, 106, 106);
     overflow: hidden;
     text-overflow: ellipsis;

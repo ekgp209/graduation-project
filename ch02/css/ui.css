@@ -58,7 +58,7 @@ body {
     height: 100%;
     min-height: 100%;
     font-family: 'Noto Sans Korean', 'Malgun Gothic', '맑은고딕', '돋움', dotum, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #2f0202;
     line-height: 1.5;
     background: url(../images/content_bg4.png) repeat;
@@ -154,7 +154,7 @@ textarea,
 select,
 button {
     font-family: 'Noto Sans Korean', 'Malgun Gothic', '맑은고딕', '돋움', dotum, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     /* color:white; */
     color: #919090;
     line-height: 1.5;
@@ -214,7 +214,7 @@ body {
 #wrap {
     width: 100%;
     height: 100%;
-    padding-right: 180px;
+    padding-right: 11.25rem;
 }
 
 #wrap>h1 {
@@ -223,21 +223,21 @@ body {
 
 header .logo_box {
     position: absolute;
-    right: 30px;
-    top: 78px;
+    right: 1.875rem;
+    top: 4.875rem;
     cursor: pointer;
 }
 
 header .logo_box img {
-    width: 125px;
+    width: 7.8125rem;
 }
 
 #wrap header {
-    width: 180px;
+    width: 11.25rem;
     height: 100%;
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 0rem;
+    top: 0rem;
     background: url(../images/menu_bg1.png) repeat-y;
     z-index: 11;
 }
@@ -256,28 +256,28 @@ header .logo_box img {
 }
 
 #wrap header nav ul li {
-    margin: 0px 0px 10px 30px;
-    padding-left: 15px;
+    margin: 0rem 0rem 0.625rem 1.875rem;
+    padding-left: 0.9375rem;
     position: relative;
 }
 
 #wrap header nav ul li a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: rgb(61, 61, 61);
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 #wrap header nav ul li:after {
     content: "";
     display: block;
-    width: 5px;
-    height: 5px;
+    width: 0.3125rem;
+    height: 0.3125rem;
     border-radius: 50%;
     background: rgb(61, 61, 61);
     position: absolute;
-    left: 0px;
-    top: 13px;
+    left: 0rem;
+    top: 0.8125rem;
 }
 
 #wrap header nav ul li:hover a,
@@ -292,32 +292,32 @@ header .logo_box img {
 }
 
 footer {
-    width: 180px;
+    width: 11.25rem;
     position: fixed;
-    right: 0px;
-    bottom: 0px;
-    padding: 0px 20px 30px 20px;
-    font-size: 11px;
+    right: 0rem;
+    bottom: 0rem;
+    padding: 0rem 1.25rem 1.875rem 1.25rem;
+    font-size: 0.6875rem;
     color: #88819c;
     z-index: 12;
 }
 
 footer address {
-    padding: 0px 0px 12px 0px;
+    padding: 0rem 0rem 0.75rem 0rem;
 }
 
 footer>a {
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     position: absolute;
-    top: -28px;
+    top: -1.75rem;
     transition: .4s;
 }
 
 footer>a.face {
     background: url(../images/social_b_facebook.png) no-repeat;
-    right: 18px;
+    right: 1.125rem;
 }
 
 footer>a.face:hover {
@@ -334,7 +334,7 @@ footer>a.twit:hover {
 
 footer>a.instar {
     background: url(../images/social_b_instar.png) no-repeat;
-    right: 80px;
+    right: 5rem;
 }
 
 footer>a.instar:hover {
@@ -345,7 +345,7 @@ footer>a.instar:hover {
     width: 100%;
     height: 100%;
     position: relative;
-    max-width: 1700px;
+    max-width: 106.25rem;
     margin: 0 auto;
 }
 
@@ -357,7 +357,7 @@ footer>a.instar:hover {
 }
 
 #container .content.this .conbox {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
 
@@ -394,11 +394,11 @@ footer>a.instar:hover {
 }
 
 #container .content.this .conbox:before {
-    transform: translate3d(300px, 0, 0);
+    transform: translate3d(18.75rem, 0, 0);
 }
 
 #container .content.this:after {
-    transform: translate3d(-300px, 0, 0);
+    transform: translate3d(-18.75rem, 0, 0);
 }
 
 #container #menu1 {
@@ -429,7 +429,7 @@ footer>a.instar:hover {
 }
 
 #container .content:before {
-    width: 1px;
+    width: 0.0625rem;
     height: 100%;
     background: #000;
     left: 0;
@@ -438,9 +438,9 @@ footer>a.instar:hover {
 }
 
 #container .content:after {
-    left: 30px;
-    top: 180px;
-    font-size: 25px;
+    left: 1.875rem;
+    top: 11.25rem;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: #000;
 }
@@ -468,38 +468,39 @@ footer>a.instar:hover {
 }
 
 #container #menu1 .conbox:before {
-    background: url(../images/main_ico1.png) no-repeat;
-    width: 350px;
-    height: 260px;
-    right: -10px;
-    top: 130px;
+    background: url(../images/book_read.png) no-repeat;
+    width: 18.75rem;
+    height: 13.125rem;
+    right: -0.625rem;
+    top: 14.375rem;
+
     background-size: 100%;
 }
 
 #container #menu2 .conbox:before {
     background: url(../images/main_ico2.png) no-repeat;
-    width: 180px;
-    height: 470px;
-    right: -30px;
-    top: 180px;
+    width: 11.25rem;
+    height: 29.375rem;
+    right: -1.875rem;
+    top: 11.25rem;
     background-size: 100%;
 }
 
 #container #menu3 .conbox:before {
     background: url(../images/main_ico3.png) no-repeat;
-    width: 270px;
-    height: 310px;
-    right: -60px;
-    top: 30px;
+    width: 16.875rem;
+    height: 19.375rem;
+    right: -3.75rem;
+    top: 1.875rem;
     background-size: 100%;
 }
 
 #container #menu4 .conbox:before {
     background: url(../images/main_ico4.png) no-repeat;
-    width: 350px;
-    height: 400px;
-    right: -170px;
-    top: 100px;
+    width: 21.875rem;
+    height: 25rem;
+    right: -10.625rem;
+    top: 6.25rem;
     background-size: 100%;
 }
 
@@ -509,11 +510,11 @@ footer>a.instar:hover {
 
 #container .content.this h2 {
     height: auto;
-    padding: 25px 35px;
+    padding: 1.5625rem 2.1875rem;
     color: #000;
     position: relative;
     background: #fff;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     opacity: 1;
     transition: all .6s;
@@ -523,7 +524,7 @@ footer>a.instar:hover {
 #container .content.this h2:after {
     content: "";
     width: 100%;
-    height: 8px;
+    height: 0.5rem;
     background: #453779;
     position: absolute;
     left: 0;
@@ -535,7 +536,7 @@ footer>a.instar:hover {
 }
 
 #container .content.this .conbox .content_wrap {
-    padding: 30px 50px 50px 50px;
+    padding: 1.875rem 3.125rem 3.125rem 3.125rem;
     opacity: 1;
     transition: all 1.7s;
     transition-delay: .8s;
@@ -563,20 +564,20 @@ footer>a.instar:hover {
 }
 
 .pargrph_tit {
-    margin-bottom: 50px;
-    font-size: 24px;
+    margin-bottom: 3.125rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
 .pargrph_tit:after {
     content: "";
     display: block;
-    width: 30px;
-    height: 8px;
+    width: 1.875rem;
+    height: 0.5rem;
     background: #ed3140;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -0.625rem;
 }
 
 .text_box {
@@ -584,15 +585,15 @@ footer>a.instar:hover {
 }
 
 .text_box h4 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #6F4F28;
     font-weight: 700;
 }
 
 .text_box p {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     color: #ababab;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .text_box:nth-child(odd) {
@@ -606,46 +607,46 @@ footer>a.instar:hover {
 .text_box:nth-child(1):after {
     content: "";
     display: block;
-    width: 206px;
+    width: 12.875rem;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
     background: url(../images/content_img1.png) no-repeat right top;
-    background-size: 206px auto;
+    background-size: 12.875rem auto;
 }
 
 .text_box:nth-child(1) p {
     width: 100%;
-    padding-right: 206px;
+    padding-right: 12.875rem;
 }
 
 .text_box:nth-last-child(1)::before {
     content: "";
     display: block;
-    width: 150px;
-    height: 250px;
+    width: 9.375rem;
+    height: 15.625rem;
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 4.375rem;
     background: url(../images/content_img2.png) no-repeat right top;
-    background-size: 150px;
+    background-size: 9.375rem;
 }
 
 .text_box:nth-last-child(1):after {
     content: "";
     display: block;
-    width: 170px;
-    height: 280px;
+    width: 10.625rem;
+    height: 17.5rem;
     position: absolute;
     right: 0;
-    top: -20px;
+    top: -1.25rem;
     background: url(../images/content_img3.png) no-repeat right top;
-    background-size: 170px;
+    background-size: 10.625rem;
 }
 
 .text_box:nth-last-child(1) p {
-    padding: 0 200px 0 280px;
+    padding: 0 12.5rem 0 17.5rem;
 }
 
 .text_box:nth-last-child(1) h4 {
@@ -653,20 +654,20 @@ footer>a.instar:hover {
 }
 
 #menu2.content h3 {
-    font-size: 0px;
+    font-size: 0rem;
 }
 
 #menu2.content.this .conbox {
-    background: url(../images/bookbg.png) no-repeat -15px 360px;
+    background: url(../images/bookbg.png) no-repeat -0.9375rem 22.5rem;
     max-width: 100%;
 }
 
 .notebook {
-    width: 954px;
-    height: 650px;
-    margin: 100px auto 0 auto;
+    width: 59.625rem;
+    height: 40.625rem;
+    margin: 6.25rem auto 0 auto;
     background: url(../images/mackbook.png) no-repeat;
-    background-size: 954px;
+    background-size: 59.625rem;
     position: relative;
     transform-style: preserve-3d;
     transform: matrix3d(1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 1, 0, 0, 0, 1);
@@ -681,27 +682,27 @@ footer>a.instar:hover {
 }
 
 .detail_content {
-    width: 719px;
-    height: 453px;
+    width: 44.9375rem;
+    height: 28.3125rem;
     position: absolute;
-    left: 117px;
-    top: 38px;
-    padding: 30px 0;
+    left: 7.3125rem;
+    top: 2.375rem;
+    padding: 1.875rem 0;
 }
 
 .img_book {
-    width: 270px;
+    width: 16.875rem;
     float: left;
 }
 
 .img_book img {
-    width: 270px;
+    width: 16.875rem;
 }
 
 .book_description {
-    width: 449px;
+    width: 28.0625rem;
     float: left;
-    padding: 8px 20px 20px 40px;
+    padding: 0.5rem 1.25rem 1.25rem 2.5rem;
 }
 
 .detail_content:after {
@@ -711,10 +712,10 @@ footer>a.instar:hover {
 }
 
 .book_description h4 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
     color: #594796;
-    line-height: 29px;
+    line-height: 1.8125rem;
 }
 
 .book_description ul li em {
@@ -722,13 +723,13 @@ footer>a.instar:hover {
 }
 
 .bullet_list {
-    margin-top: 18px;
+    margin-top: 1.125rem;
 }
 
 .bullet_list li {
-    margin-bottom: 5px;
-    padding-left: 10px;
-    font-size: 13px;
+    margin-bottom: 0.3125rem;
+    padding-left: 0.625rem;
+    font-size: 0.8125rem;
     color: #3c4147;
     position: relative;
 }
@@ -736,39 +737,39 @@ footer>a.instar:hover {
 .bullet_list li:after {
     content: "";
     display: block;
-    width: 3px;
-    height: 3px;
+    width: 0.1875rem;
+    height: 0.1875rem;
     border-radius: 50%;
     background: #3c4147;
     position: absolute;
     left: 0;
-    top: 8px;
+    top: 0.5rem;
 }
 
 .point_text {
-    padding: 8px 30px 0px 0;
-    font-size: 12px;
+    padding: 0.5rem 1.875rem 0rem 0;
+    font-size: 0.75rem;
     color: #666;
 }
 
 .point_text strong {
     display: block;
-    padding: 0 0 10px 46px;
+    padding: 0 0 0.625rem 2.875rem;
     background: url(../images/point_bg.png) no-repeat;
-    background-size: 40px;
-    font-size: 14px;
+    background-size: 2.5rem;
+    font-size: 0.875rem;
     font-weight: 700;
     color: #3c4147;
 }
 
 .commbtn {
-    width: 150px;
+    width: 9.375rem;
     display: inline-block;
-    height: 35px;
-    margin-top: 15px;
-    font-size: 15px;
-    line-height: 35px;
-    border-radius: 5px;
+    height: 2.1875rem;
+    margin-top: 0.9375rem;
+    font-size: 0.9375rem;
+    line-height: 2.1875rem;
+    border-radius: 0.3125rem;
     text-align: center;
 }
 
@@ -783,30 +784,30 @@ footer>a.instar:hover {
 }
 
 .book_rollwrap {
-    width: 954px;
-    height: 150px;
-    margin: 40px auto 0 auto;
-    padding: 0 20px;
+    width: 59.625rem;
+    height: 9.375rem;
+    margin: 2.5rem auto 0 auto;
+    padding: 0 1.25rem;
     position: relative;
 }
 
 .book_rollwrap>button {
     display: block;
     position: absolute;
-    width: 20px;
+    width: 1.25rem;
     height: 100%;
     top: 0;
 }
 
 .book_rollwrap>button.roll_left {
     background: url(../images/btn_left.png) no-repeat center center;
-    background-size: 20px;
+    background-size: 1.25rem;
     left: 0;
 }
 
 .book_rollwrap>button.roll_right {
     background: url(../images/btn_right.png) no-repeat center center;
-    background-size: 20px;
+    background-size: 1.25rem;
     right: 0;
 }
 
@@ -822,27 +823,27 @@ footer>a.instar:hover {
 
 .book_rollwrap .book_roll ul li {
     float: left;
-    width: 152px;
+    width: 9.5rem;
     text-align: center;
 }
 
 .book_rollwrap .book_roll ul li img {
-    width: 100px;
+    width: 6.25rem;
 }
 
 .tit_faq {
     color: rgb(61, 61, 61);
     position: relative;
-    margin-top: 15px
+    margin-top: 0.9375rem
 }
 
 .tit_faq strong {
-    font-size: 25px;
-    padding-right: 10px;
+    font-size: 1.5625rem;
+    padding-right: 0.625rem;
 }
 
 .tit_faq span {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400
 }
 
@@ -850,40 +851,40 @@ footer>a.instar:hover {
     content: "";
     display: block;
     position: absolute;
-    width: 120px;
-    height: 150px;
+    width: 7.5rem;
+    height: 9.375rem;
     background: url(../images/faq_boy.png) no-repeat;
-    right: 0px;
-    top: 36px;
+    right: 0rem;
+    top: 2.25rem;
 }
 
 .accordio_box {
-    margin-top: 170px;
+    margin-top: 10.625rem;
 }
 
 .accordio_box ol li {
     width: 100%;
     background: #fff;
-    border-top: 4px solid #7a6da7;
+    border-top: 0.25rem solid #7a6da7;
 }
 
 .accordio_box ol li h4 {
     display: block;
-    padding: 0px 20px 20px 0px;
-    margin: 20px 20px 0 30px;
+    padding: 0rem 1.25rem 1.25rem 0rem;
+    margin: 1.25rem 1.25rem 0 1.875rem;
     cursor: pointer;
-    background: url(../images/select_bullet_up.png) no-repeat right 11px;
+    background: url(../images/select_bullet_up.png) no-repeat right 0.6875rem;
     font-weight: 400;
     color: #3c4147;
 }
 
 .accordio_box ol li.on h4 {
-    background: url(../images/select_bullet_down.png) no-repeat right 11px;
+    background: url(../images/select_bullet_down.png) no-repeat right 0.6875rem;
 }
 
 .accordio_box ol li h4 span {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     font-weight: 900;
 }
 
@@ -895,9 +896,9 @@ footer>a.instar:hover {
 
 .accordio_box ol li.on p {
     height: auto;
-    padding: 30px 100px 70px 200px;
+    padding: 1.875rem 6.25rem 4.375rem 12.5rem;
     background-color: rgb(253, 251, 245);
-    background-size: 100px auto;
+    background-size: 6.25rem auto;
     background-repeat: no-repeat;
     visibility: visible;
     opacity: 1;
@@ -905,35 +906,35 @@ footer>a.instar:hover {
 
 .accordio_box ol li:nth-of-type(1) p {
     background-image: url(../images/board_boy.png);
-    background-position: 40px -1px;
+    background-position: 2.5rem -0.0625rem;
 }
 
 .accordio_box ol li:nth-of-type(2) p {
     background-image: url(../images/read_boy.png);
-    background-position: 40px 20px;
+    background-position: 2.5rem 1.25rem;
 }
 
 .accordio_box ol li:nth-of-type(3) p {
     background-image: url(../images/shopping_boy.png);
-    background-position: 40px 13px;
+    background-position: 2.5rem 0.8125rem;
 }
 
 .accordio_box ol li:nth-of-type(4) p {
     background-image: url(../images/meeting_boy.png);
-    background-position: 40px 13px;
+    background-position: 2.5rem 0.8125rem;
 }
 
 #menu4 .content_wrap {
-    width: 800px;
-    margin: 60px auto 0 auto;
-    padding: 30px;
+    width: 50rem;
+    margin: 3.75rem auto 0 auto;
+    padding: 1.875rem;
     background: rgna(255, 255, 255, 0.7);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 #menu4 .content_wrap .form_tit {
-    margin-bottom: 35px;
-    font-size: 24px;
+    margin-bottom: 2.1875rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #000;
 }
@@ -943,24 +944,24 @@ footer>a.instar:hover {
 }
 
 .formlist {
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
     background: url(../images/contact_bg.png) no-repeat right bottom;
-    background-size: 200px;
+    background-size: 12.5rem;
 }
 
 .formlist ul li {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     position: relative;
-    padding: 0 0 0 150px;
+    padding: 0 0 0 9.375rem;
 }
 
 .formlist ul li label {
     display: block;
-    width: 150px;
+    width: 9.375rem;
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #555;
 }
 
@@ -973,20 +974,20 @@ footer>a.instar:hover {
 }
 
 .formlist ul li .inputbox {
-    width: 400px;
-    height: 40px;
-    padding-left: 7px;
-    border: solid 1px #ddd;
-    border-radius: 3px;
+    width: 25rem;
+    height: 2.5rem;
+    padding-left: 0.4375rem;
+    border: solid 0.0625rem #ddd;
+    border-radius: 0.1875rem;
     background: #fff;
 }
 
 .formlist ul li .textbox {
-    width: 400px;
-    height: 180px;
-    padding: 7px;
-    border: solid 1px #ddd;
-    border-radius: 3px;
+    width: 25rem;
+    height: 11.25rem;
+    padding: 0.4375rem;
+    border: solid 0.0625rem #ddd;
+    border-radius: 0.1875rem;
     background: #fff;
 }
 
@@ -998,6 +999,6 @@ footer>a.instar:hover {
 
 .btn_sub {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
 }
