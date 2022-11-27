@@ -223,13 +223,14 @@ body {
 
 header .logo_box {
     position: absolute;
-    right: 1.875rem;
-    top: 4.875rem;
+    right: 22px;
+    top: 85px;
     cursor: pointer;
 }
 
 header .logo_box img {
-    width: 7.8125rem;
+
+    width:140px;
 }
 
 #wrap header {
